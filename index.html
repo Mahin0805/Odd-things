@@ -4,8 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odd thing</title>
+    <style>
+        .card {
+            width: 300px;
+            height: 460px;
+            border: 2px solid blue;
+            border-radius: 15px;
+
+        }
+
+        .img {
+            border-radius: 15px;
+            padding: 5px;
+            width: 290px;
+            height: 15em;
+        }
+
+        .content {
+            padding: 5px;
+        }
+
+        .content span {
+            border: 2px solid gray;
+            border-radius: 15px;
+            padding: 0px 15px;
+        }
+
+        .content button {
+            padding: 5px 110px;
+            color: #0610cd;
+            background-color: rgba(116, 151, 215, 0.74);
+            border-radius: 15px;
+            border: none;
+            cursor: pointer;
+            
+        }
+        .btn{
+            text-align: center;
+        }
+        .content button:hover{
+            background-color: rgba(0, 0, 255, 0.776);
+            color: #ffffff;
+        }
+        .content h2 , p , .tog{
+            padding-left: 10px;
+        }
+    </style>
 </head>
+
 <body>
+    <!-- card -->
+    <div class="card">
+        <div class="pic"><img
+                src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg"
+                alt="what!" class="img"></div>
+        <div class="content">
+            <span class="tog">Nature</span>
+            <span class="tog">Beauty</span>
+            <h2>Lorem, ipsum </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quam quas at! Voluptatum, nemo.
+                Inventore2</p>
+            <div class="btn">
+                <button>Read more</button>
+            </div>
+        </div>
+    </div>
     
 </body>
+
 </html>
