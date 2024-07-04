@@ -56,7 +56,15 @@
 .content p {
     padding-left: 10px;
 }
-
-body {
+body{
+    display: inline;
     display: flex;
+}
+
+@media only screen and (max-width: 425px){
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
 }
