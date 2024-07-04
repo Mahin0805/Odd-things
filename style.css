@@ -1,4 +1,7 @@
-
+:root {
+    --color: rgb(64, 220, 64);
+    --seccolor: white;
+}
 
 .card {
     width: 300px;
@@ -45,8 +48,8 @@
 }
 
 .content button:hover {
-    background-color: rgba(0, 0, 255, 0.776);
-    color: #ffffff;
+    background-color: var(--color);
+    color: var(--seccolor);
 }
 
 .content h2,
